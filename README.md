@@ -106,7 +106,7 @@ The integration test executes the compiled CLI and compares `data/output.txt` ag
 
 ---
 
-## 📥 Input Format
+## Input Format
 
 Each line in `data/input.txt` is a *quoted* CSV row:
 
@@ -120,7 +120,7 @@ Fields: FirstName, LastName, Street, City, State, Age
 
 ---
 
-## 📤 Output Format
+## Output Format
 
 Two sections of plain text:
 
@@ -183,7 +183,7 @@ These rules ensure minor variations of the same address group into one household
 
 ---
 
-## 🐞 Debugging (VS Code)
+## Debugging (VS Code)
 
 Create `.vscode/launch.json` with a config to debug the **current test file**:
 
@@ -207,7 +207,7 @@ Create `.vscode/launch.json` with a config to debug the **current test file**:
 ```
 ---
 
-## 🧩 Troubleshooting
+## Troubleshooting
 
 * **Preset ts-jest not found**: ensure `ts-jest` is installed and config file is `jest.config.cjs` (CommonJS). Clear cache: `npx jest --clearCache`.
 * **Cannot find module 'fs' types**: install `@types/node` and add `"types": ["node"]` in `tsconfig.json`.
