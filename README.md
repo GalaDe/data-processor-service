@@ -156,7 +156,7 @@ Williams, Bob | 234 2nd ave, Tacoma, WA | Age 26
 
 ---
 
-## 🧭 Normalization Rules (summary)
+## Normalization Rules (summary)
 
 * **Street**: lowercased; periods and commas removed; internal whitespace collapsed (e.g., `"345 3rd Blvd., Apt. 200" → "345 3rd blvd apt 200"`).
 * **City**: lowercased for the key; displayed as `Titlecase` (first letter uppercased).
@@ -166,7 +166,7 @@ These rules ensure minor variations of the same address group into one household
 
 ---
 
-## 🔧 npm Scripts
+## npm Scripts
 
 ```json
 {
