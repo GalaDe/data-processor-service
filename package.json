@@ -1,0 +1,30 @@
+{
+  "name": "data-processor-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "pretest": "npm run build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "coverage": "jest --coverage",
+    "start": "node bin/index.js",
+    "start:demo": "node bin/index.js data/input.txt --out=data/output.txt",
+    "dev": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-typescript": "^7.27.1",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.19.11",
+    "babel-jest": "^30.0.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.9.2"
+  }
+}

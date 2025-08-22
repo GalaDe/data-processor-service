@@ -1,0 +1,14 @@
+Households (normalized address) and occupant counts:
+- 234 2nd ave, Tacoma, FL -> 1
+- 123 main st, Seattle, WA -> 4
+- 234 2nd ave, Seattle, WA -> 1
+- 345 3rd blvd apt 200, Seattle, WA -> 2
+- 234 2nd ave, Tacoma, WA -> 2
+
+Adults (> 18) sorted by Last Name, then First Name:
+Johnson, Carol | 234 2nd ave, Seattle, WA | Age 67
+Jones, Frank | 234 2nd ave, Tacoma, FL | Age 23
+Smith, Alice | 123 main st, Seattle, WA | Age 45
+Smith, Dave | 123 main st, Seattle, WA | Age 43
+Smith, Eve | 234 2nd ave, Tacoma, WA | Age 25
+Williams, Bob | 234 2nd ave, Tacoma, WA | Age 26
