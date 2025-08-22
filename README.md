@@ -10,7 +10,7 @@ TypeScript CLI that reads txt files of quoted CSV records (first name, last name
 * Normalize addresses (street/city/state) into household
 * Report household occupant counts
 * Report adults (> 18) sorted by Last → First
-* Golden-file **integration test** and unit tests via Jest + ts-jest
+* Integration and unit tests via Jest + ts-jest
 
 ---
 
